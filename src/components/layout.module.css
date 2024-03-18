@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  max-width: 36rem;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
