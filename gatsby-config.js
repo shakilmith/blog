@@ -19,7 +19,7 @@ module.exports = {
       extensions: [`.mdx`, `.md`],
     },
   },
-  
+
   {
     resolve: `gatsby-source-filesystem`,
     options: {
@@ -27,21 +27,5 @@ module.exports = {
       path: `${__dirname}/content/`,
     },
   },
-
-  {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-      name: `content`,
-      path: `${__dirname}/src/content`,
-    },
-  },
-
-  `gatsby-transformer-yaml`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./src/data/`,
-      },
-    },
 ]
 };
